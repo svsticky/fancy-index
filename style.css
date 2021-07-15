@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-800 text-white;
+}
+
+table {
+  @apply bg-gray-700 mx-auto my-6 rounded-lg;
+}
+
+thead {
+  @apply rounded-lg;
+}
+
+tbody {
+  @apply rounded-lg;
+}
+
+th {
+  @apply text-left last:text-right p-4 bg-gray-500 first:rounded-l-lg last:rounded-r-lg;
+}
+
+tbody tr {
+  @apply hover:bg-gray-600;
+}
+
+td {
+  @apply p-4 text-base;
+}
+
+h1 {
+  @apply text-xl align-middle;
+}
+
+/* Font Awesome icons (but very manually) */
+
+@font-face {
+  font-family: 'font-awesome';
+  src: url('/fa-brands-400.ttf');
+}
+
+.fa-lg {
+	font-size: 1.33333em;
+}
+
+.fab {
+	font-family: 'font-awesome';font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+  display: inline-block;
+}
+
+.fa-facebook-f::before {
+	content: "\f39e";
+}
+
+.fa-linkedin-in::before {
+	content: "\f0e1";
+}
+
+.fa-github::before {
+	content: "\f09b";
+}
