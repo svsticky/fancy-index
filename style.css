@@ -7,19 +7,19 @@ body {
 }
 
 table {
-  @apply bg-gray-700 mx-auto my-6 rounded-lg;
+  @apply bg-gray-700 mx-auto my-6 rounded;
 }
 
 thead {
-  @apply rounded-lg;
+  @apply rounded;
 }
 
 tbody {
-  @apply rounded-lg;
+  @apply rounded;
 }
 
 th {
-  @apply text-left last:text-right p-4 bg-gray-500 first:rounded-l-lg last:rounded-r-lg;
+  @apply text-left last:text-right p-4 bg-gray-500 first:rounded-l last:rounded-r;
 }
 
 tbody tr {
@@ -38,7 +38,7 @@ h1 {
 
 @font-face {
   font-family: 'font-awesome';
-  src: url('/fa-brands-400.ttf');
+  src: url('fa-brands-400.ttf');
 }
 
 .fa-lg {
