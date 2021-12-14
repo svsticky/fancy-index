@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply h-full;
+}
+
 body {
-  @apply bg-gray-800 text-white;
+  @apply bg-gray-800 text-white h-full;
 }
 
 table {
-  @apply bg-gray-700 mx-auto my-6 rounded;
+  @apply bg-gray-700 mx-auto my-6 rounded mb-28;
 }
 
 thead {
