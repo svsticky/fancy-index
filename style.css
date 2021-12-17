@@ -7,11 +7,11 @@ html {
 }
 
 body {
-  @apply bg-gray-800 text-white h-full;
+  @apply bg-gray-900 text-white h-full;
 }
 
 table {
-  @apply bg-gray-700 mx-auto my-6 rounded mb-28;
+  @apply bg-gray-800 mx-auto my-6 rounded mb-28;
 }
 
 thead {
@@ -23,11 +23,11 @@ tbody {
 }
 
 th {
-  @apply text-left last:text-right p-4 bg-gray-500 first:rounded-l last:rounded-r;
+  @apply text-left last:text-right p-4 bg-gray-600 first:rounded-l last:rounded-r;
 }
 
 tbody tr {
-  @apply hover:bg-gray-600;
+  @apply hover:bg-gray-700;
 }
 
 td {
