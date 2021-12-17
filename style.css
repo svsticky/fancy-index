@@ -31,7 +31,11 @@ tbody tr {
 }
 
 td {
-  @apply p-4 text-base;
+  @apply text-base p-4 first:p-0 last:text-right;
+}
+
+td a {
+  @apply block p-4 text-left;
 }
 
 h1 {
