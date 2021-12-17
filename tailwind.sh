@@ -1,1 +1,1 @@
-npm exec -- tailwindcss --input style.css --output compiled.css --purge index.html --watch
+npm exec -- tailwindcss --input style.css --output compiled.css --content index.html --watch
