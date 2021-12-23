@@ -23,7 +23,7 @@ tbody {
 }
 
 th {
-  @apply text-left last:text-right p-4 bg-gray-600 first:rounded-l last:rounded-r;
+  @apply text-left last:text-right p-4 bg-gray-600 first:rounded md:first:rounded-none md:first:rounded-l last:rounded-r first:table-cell hidden md:table-cell;
 }
 
 tbody tr {
@@ -31,7 +31,7 @@ tbody tr {
 }
 
 td {
-  @apply text-base p-4 first:p-0 last:text-right;
+  @apply text-base p-4 first:p-0 last:text-right first:table-cell hidden md:table-cell;
 }
 
 td a {
