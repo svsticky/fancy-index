@@ -497,12 +497,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded {
