@@ -481,6 +481,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: table;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-16 {
   height: 4rem;
 }
