@@ -464,14 +464,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -489,8 +481,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: table;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-16 {
   height: 4rem;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .w-full {
@@ -503,6 +503,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded {
@@ -567,7 +571,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5rem;
-  margin-bottom: 7rem;
+  margin-bottom: 2.5rem;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));

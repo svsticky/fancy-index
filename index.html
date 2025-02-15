@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="compiled.css">
     </head>
-<body>
+<body class="flex flex-col w-screen">
 
 <div class="w-full bg-gray-800 p-2">
     <div class="container flex justify-center m-auto">
@@ -21,7 +21,7 @@
         </h1>
     </div>
 </div>
-
+<div class="overflow-y-scroll w-full h-full">
 <h1 class="pt-5 rounded text-center">
 <!-- HEADER -->
     /path/to/files</h1>
@@ -72,11 +72,10 @@
             <tr><td><a href="2007_01_22.pdf" title="2007_01_22.pdf">2007_01_22.pdf</a></td><td>451.2 KiB</td><td>2019-Jun-13 18:03</td></tr>
         </tbody>
     </table>
-
 <!-- FOOTER -->
 <!-- This is a direct copy of the Koala login page footer -->
-
-<footer class="w-full bg-gray-800 h-16 p-2 fixed bottom-0 shadow shadow-gray-900">
+</div>
+<footer class="w-full bg-gray-800 h-16 p-2 shadow shadow-gray-900">
     <div class="container flex justify-center m-auto">
         <div class="flex justify-center m-auto sm:w-1/3">
             <a target="_blank" href="https://svsticky.nl">
@@ -115,6 +114,7 @@
         </div>
     </div>
 </footer>
+
 </body>
 
 </html>
