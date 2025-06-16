@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "tailwindcss": "^3.0.6"
+  },
+
+  "scripts": {
+    "build": "tailwind --input style.css --output compiled.css --content index.html",
+    "split": "csplit index.html '/<!-- HEADER -->/' '/<!-- FOOTER -->/' && mv xx00 header.html && mv xx02 footer.html && rm xx01"
   }
 }
