@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "tailwindcss": "^3.0.6"
+  },
+
+  "scripts": {
+    "build": "tailwind --input style.css --output theme/compiled.css --content index.html",
+    "dev": "npm run build -- --watch"
   }
 }

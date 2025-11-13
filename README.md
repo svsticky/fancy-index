@@ -8,21 +8,15 @@ To run in development:
 
 ``` bash
 npm install
-./tailwind.sh
+npm run dev # Compiles tailwind and watches for changes
 ```
 
 and open `index.html` in your browser.
 
 ## Deploying
 
-The HEADER and FOOTER sections can be found in `index.html` and should be copied
-to their own files to deploy.
+Deploying is done by running [`build.sh`](build.sh). This will populate the
+`theme` folder, which sadserver can then copy into the nginx configuration.
 
-Upload the HEADER, FOOTER and `compiled.css` to the server and set the
-`fancyindex_css_href`, `fancyindex_footer` and `fancyindex_header`
-directives as described in the fancy-index [docs][fancy-index]
-
-Note that there probably are small differences in imports between your server
-and local development.
-
-[fancy-index]: https://www.nginx.com/resources/wiki/modules/fancy_index/
+The `csplit` command in `build.sh` is there because nginx expects a `header.html`
+and a `footer.html`, which wraps the actual content of the page.
