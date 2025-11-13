@@ -1,12 +1,10 @@
 npm i
 
+mkdir -p theme
+
 npm run build # Compile CSS
 
-mkdir -p theme
-rm -r theme/*
-
 cp fa-brands-400.ttf theme/
-mv compiled.css theme/
 
 csplit index.html '/<!-- HEADER -->/' '/<!-- FOOTER -->/'
 mv xx00 theme/header.html
